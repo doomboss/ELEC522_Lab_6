@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html><head></head>
+<body >
+
+<canvas id="mainCanvas" width="800" height="600"></canvas>
+<<<<<<< local
+<script src="Lab6_DrawJS_Onyi.js"></script>
+
+=======
+<script src="Lab6_DrawJS_Onyi.js">
+</script>
+>>>>>>> other
+
+<form action="" id="mouseposition">
+X position: <input type="text" name="X" id="xfield"><br>
+Y position: <input type="text" name="Y" id="yfield">
+Tool: <input type="text" name="Tool" id="tool">
+</form>
+
+<button type="button" id="line" name="Line">Line</button>
+<button type="button" id="triangle" name="Triangle">Triangle</button>
+<button type="button" id="circle" name="Circle">Circle</button>
+<button type="button" id="clear" name="Clear" >Clear</button>
+
+
+<<<<<<< local
+=======
+
+>>>>>>> other
+</body></html>

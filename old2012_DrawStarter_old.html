@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html><head>
+<link rel="stylesheet" type="text/css" href="Lab6.css" media="screen" />
+</head>
+<body style="background-color : #8C858B">
+
+<canvas id="mainCanvas" width="800" height="600" style="border:1px solid #d3d3d3;"></canvas>
+<script src="Lab6_DrawJS_Onyi.js"></script>
+
+
+<form action="" id="mouseposition">
+	<label for="X">X position: </label>
+	<input type="text" name="X" id="xfield" >
+	<label for="Y">Y position: </label>
+	<input type="text" name="Y" id="yfield" >
+
+Tool: <input type="text" name="Tool" id="tool"><br>
+<div style = "width : 100px;">
+Width: <input type="text" name="Width" id="width">
+Height: <input type="text" name="Height" id="height">
+</div>
+</form>
+
+<button type="button" id="line" name="Line" onclick="setLine()">Line</button>
+<button type="button" id="rectangle" name="Rectangle" onclick="setRect()">Rectangle</button>
+<button type="button" id="circle" name="Circle" onclick="setCircle()">Circle</button>
+<button type="button" id="pencil" name="Pencil" onclick="setPencil()">Pencil</button>
+<button type="button" id="color" name="Color" onclick="setColor()">Color</button>
+<button type="button" id="linewidth" name="Line Width" onclick="setLinewidth()">Line Width</button>
+<input  type="checkbox" id="fill" name="Fill">Fill</input>
+
+</body></html>
